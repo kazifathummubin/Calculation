@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Calculation </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body style="background-image:url('images/1.jpg');background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; ">
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Calculation</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-md-6">
+								<div class="contact-wrap w-100 p-lg-5 p-4">
+									<h3 class="mb-4">Enter your Number</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            
+				      		</div>
+									<form style="color:white;" action="#" id="contactForm" name="calculas" class="contactForm">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="name" class="form-control" name="number1" id="name" placeholder="number1..">
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<input type="text" class="form-control" name="number2" id="name" placeholder="number2...">
+												</div>
+											</div>
+											
+											<div class="col-md-12">
+												<div class="form-group">
+													<button class="btn btn-success" type="button" onclick="sum(+calculas.number1.value, +calculas.number2.value)">Sum</button>
+                                    <button class="btn btn-success" type="button" onclick="sub(+calculas.number1.value, +calculas.number2.value)">Sub</button>
+                                    <button class="btn btn-success" type="button" onclick="mul(+calculas.number1.value, +calculas.number2.value)">Mul</button>
+                                    <button class="btn btn-success" type="button" onclick="div(+calculas.number1.value, +calculas.number2.value)">Div</button>
+                                    <button class="btn btn-success" type="button" onclick="mod(+calculas.number1.value, +calculas.number2.value)">Mod</button>
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-6 d-flex align-items-stretch">
+								<div class="info-wrap w-100 p-lg-5 p-4 img">
+									<h3>Result</h3>
+									<table class="table">
+												  <thead>
+												    
+												  </thead>
+												  <tbody>
+												    <tr scope="col" id="info">
+												      
+												    </tr>
+												    
+												     <tr scope="col" id="inf">
+												      
+												    </tr>
+												     <tr scope="col" id="in">
+												      
+												    </tr>
+												     <tr scope="col" id="i">
+												      
+												    </tr>
+												     <tr scope="col" id="infor">
+												      
+												    </tr>
+												 </tbody>
+
+												</table>
+													        			
+					     
+							          </div>
+						          </div>
+						        </div>
+				          </div>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+<!--   <script src="js/bootstrap.min.js"></script> -->
+  <script src="js/script.js"></script>
+ 
+
+	</body>
+</html>
+
